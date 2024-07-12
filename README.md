@@ -15,6 +15,9 @@ pip install -r requirements.txt
 Run the application:
 uvicorn main:app --reload
 
+If the above command doesn't work, try this:
+python -m uvicorn main:app --reload
+
 The application will start and be available at http://localhost:8000.
 
 # FastAPI-APP
